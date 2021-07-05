@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5182A7D2690A66D0079E63B /* AuthorizeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5182A7C2690A66D0079E63B /* AuthorizeButton.m */; };
+		D588EBE026905A72004EDA2D /* NSCharacterSet+LatinSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = D588EBDF26905A72004EDA2D /* NSCharacterSet+LatinSymbols.m */; };
+		D588EBE426907182004EDA2D /* TextFieldHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D588EBE326907182004EDA2D /* TextFieldHandler.m */; };
+		D58A98432691A6DB00AE7ADF /* SecureField.m in Sources */ = {isa = PBXBuildFile; fileRef = D58A98422691A6DB00AE7ADF /* SecureField.m */; };
+		D5AF0A732691B0FA000CA726 /* CircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AF0A722691B0FA000CA726 /* CircleButton.m */; };
+		D5E4183D268F8D8F003FCEDF /* CredentialsInsetTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E4183C268F8D8F003FCEDF /* CredentialsInsetTextField.m */; };
+		D5F472D6268EE80500CBDAE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F472D5268EE80500CBDAE3 /* AppDelegate.m */; };
+		D5F472DC268EE80600CBDAE3 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F472DB268EE80600CBDAE3 /* LoginController.m */; };
+		D5F472E1268EE80F00CBDAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F472E0268EE80F00CBDAE3 /* Assets.xcassets */; };
+		D5F472E4268EE80F00CBDAE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F472E2268EE80F00CBDAE3 /* LaunchScreen.storyboard */; };
+		D5F472E7268EE80F00CBDAE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F472E6268EE80F00CBDAE3 /* main.m */; };
+		D5F472F0268EF17B00CBDAE3 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F472EE268EF17B00CBDAE3 /* UIColor+Hex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D5182A7B2690A66D0079E63B /* AuthorizeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizeButton.h; sourceTree = "<group>"; };
+		D5182A7C2690A66D0079E63B /* AuthorizeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizeButton.m; sourceTree = "<group>"; };
+		D588EBDE26905A72004EDA2D /* NSCharacterSet+LatinSymbols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+LatinSymbols.h"; sourceTree = "<group>"; };
+		D588EBDF26905A72004EDA2D /* NSCharacterSet+LatinSymbols.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+LatinSymbols.m"; sourceTree = "<group>"; };
+		D588EBE226907182004EDA2D /* TextFieldHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldHandler.h; sourceTree = "<group>"; };
+		D588EBE326907182004EDA2D /* TextFieldHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldHandler.m; sourceTree = "<group>"; };
+		D58A98412691A6DB00AE7ADF /* SecureField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureField.h; sourceTree = "<group>"; };
+		D58A98422691A6DB00AE7ADF /* SecureField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureField.m; sourceTree = "<group>"; };
+		D5AF0A712691B0FA000CA726 /* CircleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleButton.h; sourceTree = "<group>"; };
+		D5AF0A722691B0FA000CA726 /* CircleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleButton.m; sourceTree = "<group>"; };
+		D5B78BBB269234A9005CF68A /* ButtonStateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonStateProtocol.h; sourceTree = "<group>"; };
+		D5E4183B268F8D8F003FCEDF /* CredentialsInsetTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CredentialsInsetTextField.h; sourceTree = "<group>"; };
+		D5E4183C268F8D8F003FCEDF /* CredentialsInsetTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CredentialsInsetTextField.m; sourceTree = "<group>"; };
+		D5F472D1268EE80500CBDAE3 /* LoginScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F472D4268EE80500CBDAE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5F472D5268EE80500CBDAE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5F472DA268EE80600CBDAE3 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		D5F472DB268EE80600CBDAE3 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		D5F472E0268EE80F00CBDAE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5F472E3268EE80F00CBDAE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5F472E5268EE80F00CBDAE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F472E6268EE80F00CBDAE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5F472EE268EF17B00CBDAE3 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		D5F472EF268EF17B00CBDAE3 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F472CE268EE80500CBDAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5256F3A2690C09C00AF2EFF /* CredentialsInsetTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D5E4183B268F8D8F003FCEDF /* CredentialsInsetTextField.h */,
+				D5E4183C268F8D8F003FCEDF /* CredentialsInsetTextField.m */,
+			);
+			path = CredentialsInsetTextField;
+			sourceTree = "<group>";
+		};
+		D5256F3B2690C0B300AF2EFF /* AuthorizeButton */ = {
+			isa = PBXGroup;
+			children = (
+				D5182A7B2690A66D0079E63B /* AuthorizeButton.h */,
+				D5182A7C2690A66D0079E63B /* AuthorizeButton.m */,
+			);
+			path = AuthorizeButton;
+			sourceTree = "<group>";
+		};
+		D5412BDA269396B9009F9578 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				D5F472DA268EE80600CBDAE3 /* LoginController.h */,
+				D5F472DB268EE80600CBDAE3 /* LoginController.m */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		D5412BDB269396DB009F9578 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				D5F472D4268EE80500CBDAE3 /* AppDelegate.h */,
+				D5F472D5268EE80500CBDAE3 /* AppDelegate.m */,
+				D5F472E0268EE80F00CBDAE3 /* Assets.xcassets */,
+				D5F472E2268EE80F00CBDAE3 /* LaunchScreen.storyboard */,
+				D5F472E6268EE80F00CBDAE3 /* main.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		D588EBE1269061C1004EDA2D /* NSCharacterSetCategory */ = {
+			isa = PBXGroup;
+			children = (
+				D588EBDE26905A72004EDA2D /* NSCharacterSet+LatinSymbols.h */,
+				D588EBDF26905A72004EDA2D /* NSCharacterSet+LatinSymbols.m */,
+			);
+			path = NSCharacterSetCategory;
+			sourceTree = "<group>";
+		};
+		D58A98442691A6F300AE7ADF /* SecureField */ = {
+			isa = PBXGroup;
+			children = (
+				D58A98412691A6DB00AE7ADF /* SecureField.h */,
+				D58A98422691A6DB00AE7ADF /* SecureField.m */,
+			);
+			path = SecureField;
+			sourceTree = "<group>";
+		};
+		D5AF0A742691B102000CA726 /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D5AF0A712691B0FA000CA726 /* CircleButton.h */,
+				D5AF0A722691B0FA000CA726 /* CircleButton.m */,
+			);
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		D5C7425B26908B5500705F01 /* TextFieldHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D588EBE226907182004EDA2D /* TextFieldHandler.h */,
+				D588EBE326907182004EDA2D /* TextFieldHandler.m */,
+			);
+			path = TextFieldHandler;
+			sourceTree = "<group>";
+		};
+		D5E4183A268F8D1E003FCEDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5256F3A2690C09C00AF2EFF /* CredentialsInsetTextField */,
+				D5256F3B2690C0B300AF2EFF /* AuthorizeButton */,
+				D58A98442691A6F300AE7ADF /* SecureField */,
+				D5AF0A742691B102000CA726 /* CircleButton */,
+				D5B78BBB269234A9005CF68A /* ButtonStateProtocol.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5F472C8268EE80500CBDAE3 = {
+			isa = PBXGroup;
+			children = (
+				D5F472D3268EE80500CBDAE3 /* LoginScreen */,
+				D5F472D2268EE80500CBDAE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F472D2268EE80500CBDAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F472D1268EE80500CBDAE3 /* LoginScreen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F472D3268EE80500CBDAE3 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D5F472E5268EE80F00CBDAE3 /* Info.plist */,
+				D5C7425B26908B5500705F01 /* TextFieldHandler */,
+				D588EBE1269061C1004EDA2D /* NSCharacterSetCategory */,
+				D5E4183A268F8D1E003FCEDF /* Views */,
+				D5F472ED268EF17B00CBDAE3 /* ColorHexCategory */,
+				D5412BDB269396DB009F9578 /* Support */,
+				D5412BDA269396B9009F9578 /* LoginController */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		D5F472ED268EF17B00CBDAE3 /* ColorHexCategory */ = {
+			isa = PBXGroup;
+			children = (
+				D5F472EE268EF17B00CBDAE3 /* UIColor+Hex.m */,
+				D5F472EF268EF17B00CBDAE3 /* UIColor+Hex.h */,
+			);
+			path = ColorHexCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F472D0268EE80500CBDAE3 /* LoginScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F472EA268EE80F00CBDAE3 /* Build configuration list for PBXNativeTarget "LoginScreen" */;
+			buildPhases = (
+				D5F472CD268EE80500CBDAE3 /* Sources */,
+				D5F472CE268EE80500CBDAE3 /* Frameworks */,
+				D5F472CF268EE80500CBDAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginScreen;
+			productName = LoginScreen;
+			productReference = D5F472D1268EE80500CBDAE3 /* LoginScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F472C9268EE80500CBDAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Iaroslav Denisenko";
+				TargetAttributes = {
+					D5F472D0268EE80500CBDAE3 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = D5F472CC268EE80500CBDAE3 /* Build configuration list for PBXProject "LoginScreen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F472C8268EE80500CBDAE3;
+			productRefGroup = D5F472D2268EE80500CBDAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F472D0268EE80500CBDAE3 /* LoginScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F472CF268EE80500CBDAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F472E4268EE80F00CBDAE3 /* LaunchScreen.storyboard in Resources */,
+				D5F472E1268EE80F00CBDAE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F472CD268EE80500CBDAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F472DC268EE80600CBDAE3 /* LoginController.m in Sources */,
+				D5F472F0268EF17B00CBDAE3 /* UIColor+Hex.m in Sources */,
+				D5182A7D2690A66D0079E63B /* AuthorizeButton.m in Sources */,
+				D588EBE426907182004EDA2D /* TextFieldHandler.m in Sources */,
+				D5E4183D268F8D8F003FCEDF /* CredentialsInsetTextField.m in Sources */,
+				D5F472D6268EE80500CBDAE3 /* AppDelegate.m in Sources */,
+				D5AF0A732691B0FA000CA726 /* CircleButton.m in Sources */,
+				D58A98432691A6DB00AE7ADF /* SecureField.m in Sources */,
+				D588EBE026905A72004EDA2D /* NSCharacterSet+LatinSymbols.m in Sources */,
+				D5F472E7268EE80F00CBDAE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5F472E2268EE80F00CBDAE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F472E3268EE80F00CBDAE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F472E8268EE80F00CBDAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5F472E9268EE80F00CBDAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F472EB268EE80F00CBDAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FNMM8P5S;
+				INFOPLIST_FILE = LoginScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rolling-scopes-school.LoginScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F472EC268EE80F00CBDAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FNMM8P5S;
+				INFOPLIST_FILE = LoginScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rolling-scopes-school.LoginScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F472CC268EE80500CBDAE3 /* Build configuration list for PBXProject "LoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F472E8268EE80F00CBDAE3 /* Debug */,
+				D5F472E9268EE80F00CBDAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F472EA268EE80F00CBDAE3 /* Build configuration list for PBXNativeTarget "LoginScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F472EB268EE80F00CBDAE3 /* Debug */,
+				D5F472EC268EE80F00CBDAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5F472C9268EE80500CBDAE3 /* Project object */;
+}
